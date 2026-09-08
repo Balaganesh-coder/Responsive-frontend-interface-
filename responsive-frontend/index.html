@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaFlow | Smart Workflow</title>
+    <meta
+      name="description"
+      content="A responsive frontend interface for a simple productivity web application."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a href="#" class="brand" aria-label="NovaFlow home">
+          <span class="brand-mark">N</span>
+          <span>NovaFlow</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#features">Features</a>
+          <a href="#benefits">Benefits</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#" class="link-btn">Log in</a>
+          <a href="#" class="primary-btn">Get started</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Built for modern teams</span>
+            <h1>Turn daily work into steady progress.</h1>
+            <p>
+              NovaFlow helps teams plan projects, track tasks, and keep everyone aligned from kickoff to delivery.
+            </p>
+            <div class="hero-actions">
+              <button class="primary-btn" type="button">Start free</button>
+              <button class="secondary-btn" type="button">Watch demo</button>
+            </div>
+            <ul class="trust-list" aria-label="Customer trust indicators">
+              <li>4.9/5 rating</li>
+              <li>12k+ teams</li>
+              <li>99.9% uptime</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Dashboard preview">
+            <div class="dashboard-card main-card">
+              <div class="card-header">
+                <span>Project board</span>
+                <span class="status-pill">Live</span>
+              </div>
+              <div class="chart-bars" aria-hidden="true">
+                <span style="height: 38%"></span>
+                <span style="height: 62%"></span>
+                <span style="height: 50%"></span>
+                <span style="height: 80%"></span>
+                <span style="height: 72%"></span>
+                <span style="height: 95%"></span>
+              </div>
+              <div class="task-list">
+                <div class="task-item">
+                  <span class="dot blue"></span>
+                  <div>
+                    <strong>Website refresh</strong>
+                    <small>8 tasks left</small>
+                  </div>
+                </div>
+                <div class="task-item">
+                  <span class="dot purple"></span>
+                  <div>
+                    <strong>Launch checklist</strong>
+                    <small>3 blockers</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="floating-card mini-card">
+              <p>Weekly completion</p>
+              <strong>86%</strong>
+              <span>+12.4% vs last week</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="container stats-grid">
+          <article>
+            <strong>24%</strong>
+            <span>Faster delivery</span>
+          </article>
+          <article>
+            <strong>3x</strong>
+            <span>More visibility</span>
+          </article>
+          <article>
+            <strong>18 hrs</strong>
+            <span>Saved per week</span>
+          </article>
+          <article>
+            <strong>92%</strong>
+            <span>Team satisfaction</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <div class="container section-heading">
+          <span class="eyebrow">Everything you need</span>
+          <h2>Simple workflows that scale with your team.</h2>
+        </div>
+
+        <div class="container feature-grid">
+          <article class="feature-card">
+            <div class="icon-box blue">✓</div>
+            <h3>Task planning</h3>
+            <p>Organize work into clear priorities, deadlines, and project phases.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-box purple">⚡</div>
+            <h3>Team updates</h3>
+            <p>Keep stakeholders informed with status summaries and automated notes.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-box green">◎</div>
+            <h3>Insight tracking</h3>
+            <p>Spot bottlenecks and measure progress with helpful performance dashboards.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="benefits" id="benefits">
+        <div class="container benefit-layout">
+          <div class="benefit-copy">
+            <span class="eyebrow">Why teams choose us</span>
+            <h2>Focus on execution while your workflow stays organized.</h2>
+            <ul>
+              <li>Shared dashboards for all projects and teams</li>
+              <li>Custom views that adapt to your working style</li>
+              <li>Clear analytics to improve planning over time</li>
+            </ul>
+          </div>
+
+          <div class="benefit-panel">
+            <div class="panel-card">
+              <div class="panel-header">
+                <span>Milestone health</span>
+                <span class="trend">+18%</span>
+              </div>
+              <div class="progress-wrap" aria-label="Progress">
+                <span class="progress-bar"></span>
+              </div>
+              <div class="metrics-row">
+                <div>
+                  <small>On track</small>
+                  <strong>72%</strong>
+                </div>
+                <div>
+                  <small>Delayed</small>
+                  <strong>14%</strong>
+                </div>
+                <div>
+                  <small>Complete</small>
+                  <strong>86%</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section" id="pricing">
+        <div class="container cta-box">
+          <div>
+            <span class="eyebrow">Ready to move faster?</span>
+            <h2>Build clarity into every project.</h2>
+          </div>
+          <button class="primary-btn" type="button">Book a demo</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-inner">
+        <div>
+          <a href="#" class="brand">
+            <span class="brand-mark">N</span>
+            <span>NovaFlow</span>
+          </a>
+        </div>
+        <p>© <span id="year"></span> NovaFlow. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Support</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
